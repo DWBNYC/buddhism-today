@@ -1,0 +1,252 @@
+body {
+  margin: 0;
+  padding: 0;
+  /*background: #F1EEE9 url(images/bg.jpg) top repeat-x;*/ 
+  background: #fff;
+  color: #666;
+  font: 14px helvetica, arial, sans-serif;
+}
+
+a img {
+  border: none;
+}
+
+a:link,
+a:visited {
+  color: #88130D;
+  padding: 1px;
+}
+
+a:hover {
+  background: #88130D;
+  color: #fff;
+  text-decoration: none;
+}
+
+a.image:hover {
+  background: none;
+}
+
+p {
+  margin: 0 0 15px 0;
+  line-height: 18px;
+}
+
+span.highlight {
+  color: #88130D;
+}
+
+div#Container {
+  margin: 24px 0 0 25px;
+  width: 812px;
+}
+
+div#Header {
+  margin: 0px 3px 26px 3px;
+  padding: 0 0 24px 5px;
+  border-bottom: 1px solid #999;
+}
+
+div#Header a:hover {
+  background: none;
+}
+
+/* ---------------------------------
+NAV
+------------------------------------*/
+
+div#Nav a:link,
+div#Nav a:visited {
+  color: #555;
+  text-decoration: none;
+}
+
+div#Nav a#current:link,
+div#Nav a#current:visited,
+div#Nav a#current:hover {
+  background: #88130D;
+  color: #fff;
+  padding: 2px 8px;
+}
+
+div#Nav a:hover {
+  background: #333;
+  color: #fff;
+}
+
+div#Nav {
+  font-size: 14px;
+  float: left;
+  width: 220px;
+}
+
+div#Nav ul {
+  margin: 5px 0 0 8px;
+  padding: 0;
+}
+
+div#Nav ul li {
+  margin: 0 0 34px 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+/* ---------------------------------
+MIDDLE
+------------------------------------*/
+
+div#Middle {
+  float: left;
+  width: 235px;
+  padding-top: 3px;
+}
+
+body.old_issue div#Middle {
+  width: 178px;
+}
+
+body.old_issue div#Middle div.liner {
+  padding-right: 25px;
+}
+
+div#Middle img {
+  margin-bottom: 12px;
+}
+
+div#Middle p {
+  font-size: 13px;
+  line-height: 18px;
+}
+
+/* ---------------------------------
+RIGHT
+------------------------------------*/
+
+div#Right {
+  float: left;
+  width: 355px;
+  border-left: 1px solid #BBB9B5;
+}
+
+body.old_issue div#Right {
+  width: 412px;
+}
+
+body.issue div#Right h1,
+body.issue div#Right h2 {
+  color: #555;
+  color: #88130D;
+  font-size: 18px;
+  border-bottom: 1px solid #ccc;
+  margin: 0 0 15px 0;
+  text-transform: uppercase;
+}
+
+body.issue div#Right h1 {
+  color: #666;
+  border-bottom: none;
+}
+
+body.issue div#Right h1 span,
+body.issue div#Right h2 span {
+  color: #666;
+  font-weight: normal;
+}
+
+body.issue div#Right h3 {
+  font-size: 16px;
+  color: #555;
+  margin: 0;
+}
+
+body.issue div#Right h3.NoDescription {
+  margin-bottom: 15px;
+}
+
+body.issue div#Right div.section h2 {
+  margin-top: 25px;
+}
+
+div#Right div.liner {
+  padding-left: 27px;
+}
+
+div#Right p {
+  font-size: 14px;
+  line-height: 18px;
+}
+
+
+/* ---------------------------------
+WIDE RIGHT
+------------------------------------*/
+
+div#WideRight {
+  float: left;
+  width: 590px;
+}
+
+div#WideRight p {
+  margin-left: 10px;
+}
+
+div#WideRight table#PreviousIssues {
+  border-collapse: collapse;
+}
+
+div#WideRight table#PreviousIssues tr td {
+  padding: 0 4px 0 4px;
+}
+
+div#WideRight table#PreviousIssues tr td img {
+  background: #fff;
+  padding: 4px;
+}
+
+div#WideRight table#PreviousIssues tr td p {
+  font-size: 11px;
+  margin: 0;
+  padding: 0 0 14px 6px;
+  text-align: left;
+}
+
+div#WideRight table#PreviousIssues tr td p a:link,
+div#WideRight table#PreviousIssues tr td p a:visited {
+  text-decoration: none;
+}
+
+div#WideRight table#PreviousIssues tr td p a:visited {
+  color: #666;
+}
+
+div#WideRight table#PreviousIssues tr td p a:hover {
+  color: #fff;
+}
+
+/* ---------------------------------
+FOOTER
+------------------------------------*/
+
+div#Footer {
+  clear: top;
+  float: left;
+  width: 812px;
+  margin: 20px 3px 0 3px;
+  padding: 17px 0 20px 0;
+  border-top: 1px solid #BBB9B5;
+}
+
+div#Footer p {
+  font-size: 11px;
+  line-height: 14px;
+  margin: 0 0 3px 0;
+}
+
+div#Footer p a:link,
+div#Footer p a:visited {
+  color: #555;
+}
+
+div#Footer p a:hover {
+  color: #fff;
+}
